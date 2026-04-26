@@ -32,6 +32,8 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6   /usr/lib/x86_64-linux-gnu/l
 # Export
 export BUILD_USERNAME=khayloaf
 export BUILD_HOSTNAME=crave
+unset OUT_DIR
+export OUT_DIR=out
 
 # Set up build environment
 . build/envsetup.sh
