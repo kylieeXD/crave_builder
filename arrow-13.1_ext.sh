@@ -24,6 +24,7 @@ git clone https://gitlab.com/kylieeXD/vendor_xiaomi_surya-miuicamera --depth=1 v
 git clone https://github.com/Cilok-LAB/android_kernel_xiaomi_surya --depth=1 kernel/xiaomi/surya
 git clone https://github.com/Mnzz-Prjkt/android_private_keys vendor/private/keys
 git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git -b arrow-13.1 hardware/xiaomi
+git clone https://github.com/swiitch-OFF-Lab/hardware_dolby.git -b OnePlus-UI hardware/dolby
 
 # Symlink libncurses 6 >> 5 for Q based
 sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
