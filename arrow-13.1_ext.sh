@@ -1,19 +1,11 @@
 #!/bin/bash
 
 # WARNING: This will remove all local changes!
-rm -rf .repo/local_manifests
 rm -rf kernel/xiaomi
 rm -rf device/xiaomi
 rm -rf hardware/xiaomi
 rm -rf vendor/xiaomi
 rm -rf vendor/private
-
-# Initialize repo
-repo init --depth=1 --no-repo-verify -u https://github.com/Ghnkz/android_manifest.git -b arrow-13.1_ext --git-lfs -g default,-mips,-darwin,-notdefault
-
-# Sync the repositories
-/opt/crave/resync.sh
-repo sync
 
 # Clone device tree
 git clone https://github.com/HinohArata/device_xiaomi_surya-arrow.git device/xiaomi/surya
