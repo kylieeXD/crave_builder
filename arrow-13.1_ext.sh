@@ -40,5 +40,5 @@ export BUILD_HOSTNAME=crave
 . build/envsetup.sh
 
 # Build rom
-lunch arrow_aurora-userdebug
+lunch arrow_surya-userdebug
 m bacon
