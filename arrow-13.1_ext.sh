@@ -22,7 +22,7 @@ git clone https://gitea.com/HinohArata/firmware_xiaomi_surya.git --depth=1 firmw
 git clone https://gitlab.com/HinohArata/device_xiaomi_surya-miuicamera device/xiaomi/surya-miuicamera
 git clone https://gitlab.com/kylieeXD/vendor_xiaomi_surya-miuicamera --depth=1 vendor/xiaomi/surya-miuicamera
 git clone https://github.com/Cilok-LAB/android_kernel_xiaomi_surya --depth=1 kernel/xiaomi/surya
-git clone https://github.com/Mnzz-Prjkt/android_private_keys vendor/private/keys/keys.mk
+git clone https://github.com/Mnzz-Prjkt/android_private_keys vendor/private/keys
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-20 hardware/xiaomi
 
 # Symlink libncurses 6 >> 5 for Q based
