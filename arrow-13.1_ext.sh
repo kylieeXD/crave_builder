@@ -16,7 +16,7 @@ repo init --depth=1 --no-repo-verify -u https://github.com/Ghnkz/android_manifes
 repo sync
 
 # Clone device tree
-git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git device/xiaomi/surya
+git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git -b arrow-13.1 device/xiaomi/surya
 git clone https://github.com/HinohArata/surya_vendor.git --depth=1 vendor/xiaomi/surya
 git clone https://gitea.com/HinohArata/firmware_xiaomi_surya.git --depth=1 firmware/xiaomi/surya
 git clone https://gitlab.com/HinohArata/device_xiaomi_surya-miuicamera device/xiaomi/surya-miuicamera
