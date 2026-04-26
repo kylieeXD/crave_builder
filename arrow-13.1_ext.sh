@@ -18,7 +18,7 @@ repo sync
 
 # Clone device tree
 git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git -b arrow-13.1 device/xiaomi/surya
-git clone https://github.com/HinohArata/surya_vendor.git --depth=1 vendor/xiaomi/surya
+git clone https://github.com/HinohArata/surya_vendor.git --depth=1 -b lineage-20 vendor/xiaomi/surya
 git clone https://gitea.com/HinohArata/firmware_xiaomi_surya.git --depth=1 firmware/xiaomi/surya
 git clone https://gitlab.com/HinohArata/device_xiaomi_surya-miuicamera device/xiaomi/surya-miuicamera
 git clone https://gitlab.com/kylieeXD/vendor_xiaomi_surya-miuicamera --depth=1 vendor/xiaomi/surya-miuicamera
