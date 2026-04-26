@@ -41,6 +41,3 @@ export OUT_DIR=out
 # Build rom
 lunch arrow_surya-userdebug
 m bacon
-
-# Upload ROM
-curl -T "out/target/product/surya/Arrow*surya*.zip" -u :dc4f2d6d-ef86-4241-af44-44f311a0ecb9 https://pixeldrain.com/api/file/
