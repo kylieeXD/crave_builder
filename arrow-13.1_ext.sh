@@ -18,10 +18,10 @@ repo sync
 
 # Clone device tree
 git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git -b arrow-13.1 device/xiaomi/surya
-git clone https://github.com/HinohArata/surya_vendor.git --depth=1 -b lineage-20 vendor/xiaomi/surya
-git clone https://gitea.com/HinohArata/firmware_xiaomi_surya.git --depth=1 firmware/xiaomi/surya
-git clone https://gitlab.com/HinohArata/device_xiaomi_surya-miuicamera device/xiaomi/surya-miuicamera
-git clone https://gitlab.com/kylieeXD/vendor_xiaomi_surya-miuicamera --depth=1 vendor/xiaomi/surya-miuicamera
+git clone https://gitlab.com/crdroidandroid/proprietary_vendor_xiaomi_surya.git -b 13.0 vendor/xiaomi/surya
+git clone https://gitlab.com/Evolution-X-HZM/firmware_xiaomi_surya.git firmware/xiaomi/surya
+git clone https://gitlab.com/Evolution-X-HZM/device_xiaomi_surya-miuicamera.git device/xiaomi/surya-miuicamera
+git clone https://gitlab.com/Evolution-X-HZM/vendor_xiaomi_surya-miuicamera.git vendor/xiaomi/surya-miuicamera
 git clone https://github.com/Cilok-LAB/android_kernel_xiaomi_surya --depth=1 kernel/xiaomi/surya
 git clone https://github.com/Mnzz-Prjkt/android_private_keys vendor/private/keys
 git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git -b arrow-13.1 hardware/xiaomi
@@ -41,5 +41,5 @@ export OUT_DIR=out
 . build/envsetup.sh
 
 # Build rom
-lunch arrow_surya-userdebug
+lunch arrow_surya-user
 m bacon
