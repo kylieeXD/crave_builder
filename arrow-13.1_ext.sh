@@ -18,10 +18,10 @@ repo sync
 
 # Clone device tree
 git clone https://github.com/rd-stuffs/android_device_qcom_common.git -b arrow-13.1 device/qcom/common
-git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git -b arrow-13.1_ext hardware/xiaomi
+git clone https://github.com/ArrowOS-Devices/android_hardware_xiaomi.git -b arrow-13.1 hardware/xiaomi
 git clone https://github.com/Cilok-LAB/android_hardware_dolby.git -b lineage-20 hardware/dolby
 git clone https://github.com/Cilok-LAB/android_kernel_xiaomi_surya --depth=1 kernel/xiaomi/surya
-git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git -b arrow-13.1 device/xiaomi/surya
+git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git -b arrow-13.1_ext device/xiaomi/surya
 git clone https://github.com/Cilok-LAB/android_vendor_xiaomi_surya.git -b lineage-20 vendor/xiaomi/surya
 git clone https://gitlab.com/Evolution-X-HZM/firmware_xiaomi_surya.git firmware/xiaomi/surya
 git clone https://gitlab.com/Evolution-X-HZM/device_xiaomi_surya-miuicamera.git device/xiaomi/surya-miuicamera
