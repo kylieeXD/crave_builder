@@ -33,5 +33,5 @@ export OUT_DIR=out
 . build/envsetup.sh
 
 # Build rom
-lunch arrow_surya-user
+lunch arrow_surya-userdebug
 m bacon
