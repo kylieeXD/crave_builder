@@ -5,7 +5,6 @@ rm -rf .repo/local_manifests
 rm -rf kernel/xiaomi
 rm -rf device/xiaomi
 rm -rf hardware/xiaomi
-rm -rf hardware/dolby
 rm -rf vendor/xiaomi
 rm -rf vendor/private
 
