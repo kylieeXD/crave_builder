@@ -9,7 +9,7 @@ rm -rf vendor/xiaomi
 rm -rf vendor/private
 
 # Initialize repo
-repo init --depth=1 --no-repo-verify -u https://github.com/Ghnkz/android_manifest.git -b arrow-13.1_ext --git-lfs -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/kylieeXD/android_manifest.git -b arrow-13.1_ext --git-lfs -g default,-mips,-darwin,-notdefault
 
 # Sync the repositories
 /opt/crave/resync.sh
