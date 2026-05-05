@@ -1,9 +1,13 @@
 #!/bin/bash
 
+# WARNING: This will remove all output!
+rm -rf out
+
 # WARNING: This will remove all local changes!
 rm -rf .repo/local_manifests
 rm -rf kernel/xiaomi
 rm -rf device/xiaomi
+rm -rf hardware/dolby
 rm -rf hardware/xiaomi
 rm -rf vendor/xiaomi
 rm -rf vendor/private
