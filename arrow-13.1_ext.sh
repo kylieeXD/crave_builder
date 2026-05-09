@@ -37,4 +37,4 @@ export OUT_DIR=out
 
 # Build rom
 lunch arrow_surya-userdebug
-m bacon
+m bacon | tee build_$(date +%Y%m%d_%H%M%S).log
