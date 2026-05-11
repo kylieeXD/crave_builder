@@ -20,7 +20,7 @@ repo init --depth=1 --no-repo-verify -u https://github.com/kylieeXD/android_mani
 repo sync
 
 # Clone device tree
-git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git -b arrow-13.1_ext device/xiaomi/surya
+git clone https://github.com/Cilok-LAB/android_device_xiaomi_surya.git -b lineage-20 device/xiaomi/surya
 
 # Symlink libncurses 6 >> 5 for Q based
 sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
