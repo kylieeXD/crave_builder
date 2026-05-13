@@ -7,6 +7,7 @@ rm -rf out
 rm -rf .repo/local_manifests
 rm -rf kernel/xiaomi
 rm -rf device/xiaomi
+rm -rf device/mediatek/sepolicy_vndr
 rm -rf hardware/dolby
 rm -rf hardware/xiaomi
 rm -rf vendor/xiaomi
