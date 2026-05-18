@@ -20,6 +20,10 @@ repo init --depth=1 -u https://github.com/Mnzz-Prjkt/android_manifest.git -b six
 /opt/crave/resync.sh
 repo sync --force-sync --no-clone-bundle --no-tags
 
+# Fixup Dolby
+git clone https://PixelOS-AOSP/android_packages_apps_DolbyAtmos packages/apps/XiaomiDolby
+sed -i 's/DolbyAtmos/XiaomiDolby/g' packages/apps/XiaomiDolby/Android.bp
+
 # Clone device tree
 git clone https://github.com/Cilok-LAB/android_device_xiaomi_klee -b lineage-23.2 device/xiaomi/klee
 
