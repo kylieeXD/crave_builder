@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # WARNING: This will remove all output!
-rm -rf out
+# rm -rf out
 
 # WARNING: This will remove all local changes!
 rm -rf .repo/local_manifests
