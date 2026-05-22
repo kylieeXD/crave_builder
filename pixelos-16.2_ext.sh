@@ -44,7 +44,10 @@ export BUILD_HOSTNAME=crave
 
 # Build rom
 lunch custom_klee-bp4a-userdebug
-m pixelos | tee build_$(date +%Y%m%d_%H%M%S).log
+m pixelos | tee build.log
+
+# Extract file name from the log
+ZIP=$(grep "Package Complete:" build.log | sed 's/Package Complete: //')
 
 # Upload rom
-curl -s -F "file=@out/target/product/klee/PixelOS_klee-16.2*.zip" "https://store1.gofile.io/contents/uploadfile"
+curl -s -F "file=@${ZIP}" "https://store1.gofile.io/contents/uploadfile"
