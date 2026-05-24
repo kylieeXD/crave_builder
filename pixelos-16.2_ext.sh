@@ -27,10 +27,6 @@ sed -i 's/DolbyAtmos/XiaomiDolby/g' packages/apps/XiaomiDolby/Android.bp
 # Clone device tree
 git clone https://github.com/Cilok-LAB/android_device_xiaomi_klee -b lineage-23.2 device/xiaomi/klee
 
-# TMP
-sed -i '35s|.*|    git clone https://github.com/kylieeXD/device_xiaomi_klee-miuicamera.git --depth=1 device/xiaomi/klee-miuicamera|' device/xiaomi/klee/vendorsetup.sh
-sed -i '40s|.*|    git clone https://github.com/kylieeXD/vendor_xiaomi_klee-miuicamera.git --depth=1 vendor/xiaomi/klee-miuicamera|' device/xiaomi/klee/vendorsetup.sh
-
 # Symlink libncurses 6 >> 5 for Q based
 sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
 sudo ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6   /usr/lib/x86_64-linux-gnu/libtinfo.so.5
