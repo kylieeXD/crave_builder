@@ -9,3 +9,8 @@ crave run --no-patch -- "curl -LSs https://raw.githubusercontent.com/kylieeXD/cr
 ```
 crave run --no-patch -- "curl -LSs https://raw.githubusercontent.com/kylieeXD/crave_builder/refs/heads/main/pixelos-16.2_ext.sh | bash"
 ```
+
+<b> - AxionOS-A16 </b>
+```
+crave run --no-patch -- "curl -LSs https://raw.githubusercontent.com/kylieeXD/crave_builder/refs/heads/main/axion-16.2.sh | bash"
+```
