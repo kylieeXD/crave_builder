@@ -2,7 +2,7 @@ Source Changelog: (that i know?)
 - Add Sidebar
 - Add Maintainer name
 - Add App clone
-- Add gamebar
+- Add Game space
 - Ask @404 for more details
 
 Full Changelog:
