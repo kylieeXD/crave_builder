@@ -25,6 +25,7 @@ Full Changelog:
 - Fixup watermark on camera (finally working)
 - Fixup filters on camera (also)
 - Fixup blur sometimes disabled when overheated
+- Uses the legacy UDFPS enrollment UI with side text
 - Gather all xiaomi parts into one place and some improvement
 
 Note:
