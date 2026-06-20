@@ -14,7 +14,7 @@ Full Changelog:
 - Improve BackLight and GameBar UI
 - Fixup vibration
 
-• Build date 20260620
+• Build date 20260620:
 - Fixup watermark on camera (finally working)
 - Fixup filters on camera (also)
 - Fixup blur sometimes disabled when overheated
