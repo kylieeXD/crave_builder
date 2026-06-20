@@ -1,3 +1,10 @@
+Source Changelog: (that i know?)
+- Add Sidebar
+- Add Maintainer name
+- Add App clone
+- Add gamebar
+- Ask @404 for more details
+
 Full Changelog:
 
 • Build date 20260530:
@@ -19,3 +26,6 @@ Full Changelog:
 - Fixup filters on camera (also)
 - Fixup blur sometimes disabled when overheated
 - Gather all xiaomi parts into one place and some improvement
+
+Note:
+This is a fork of pixelos rom, so don't report any bug to pixelos official group support.
