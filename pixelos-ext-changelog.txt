@@ -1,0 +1,21 @@
+Full Changelog:
+
+• Build date 20260530:
+- Initial Build
+- Include MiuiCamera v6.3
+- Include DolbyAtmos (picked from PixelOS)
+- Signed ROM
+- Based on OS3.0.5.0WPJMIXM
+- Watermark and Filter bug
+
+• Build date 20260608:
+- Fix watermark on MiuiCamera (workaround)
+- Switch to LunarisDolby
+- Improve BackLight and GameBar UI
+- Fixup vibration
+
+• Build date 20260620
+- Fixup watermark on camera (finally working)
+- Fixup filters on camera (also)
+- Fixup blur sometimes disabled when overheated
+- Gather all xiaomi parts into one place and some improvement
