@@ -14,17 +14,14 @@ rm -rf vendor/xiaomi
 rm -rf vendor/private
 
 # Initialize repo
-repo init --depth=1 -u https://github.com/Mnzz-Prjkt/android_manifest.git -b sixteen-qpr2 --git-lfs
+repo init --depth=1 -u https://github.com/PixelOS-Ext/android_manifest.git -b sixteen-qpr2 --git-lfs
+
+# Clone device tree manifest
+git clone https://github.com/xiaomi-klee-devs/android_manifest .repo/local_manifests -b android/lineage-23.2
 
 # Sync the repositories
 /opt/crave/resync.sh
 repo sync --force-sync --no-clone-bundle --no-tags
-
-# Fixup Dolby
-git clone https://github.com/lineageos-personal/android_packages_apps_DolbyAtmos packages/apps/DolbyAtmos
-
-# Clone device tree
-git clone https://github.com/Cilok-LAB/android_device_xiaomi_klee -b lineage-23.2 device/xiaomi/klee
 
 # Symlink libncurses 6 >> 5 for Q based
 sudo ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
