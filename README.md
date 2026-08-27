@@ -14,3 +14,8 @@ crave run --no-patch -- "curl -LSs https://raw.githubusercontent.com/kylieeXD/cr
 ```
 crave run --no-patch -- "curl -LSs https://raw.githubusercontent.com/kylieeXD/crave_builder/refs/heads/main/axion-16.2.sh | bash"
 ```
+
+<b> - Shinkai-A17 </b>
+```
+crave run --no-patch -- "curl -LSs https://raw.githubusercontent.com/kylieeXD/crave_builder/refs/heads/main/shinkai_heptakaideka.sh | bash"
+```
