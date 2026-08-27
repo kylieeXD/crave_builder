@@ -14,7 +14,8 @@ rm -rf vendor/xiaomi
 rm -rf vendor/private
 
 # Initialize repo
-repo init --depth=1 -u https://github.com/Shinkaiprjkt/shinkai_manifest.git -b heptakaideka --git-lfs
+for s in "$HOME/.s" "$(pwd)/.setup/prepare.sh"; do [ -f "$s" ] && source "$s" || echo "prepare.sh not found in $(dirname $s)"; done
+repo init --depth=1 -u https://{$USUN}:{$USUT}@github.com/Shinkaiprjkt/shinkai_manifest.git -b heptakaideka --git-lfs
 
 # Clone device tree manifest
 git clone https://github.com/xiaomi-klee-devs/android_manifest .repo/local_manifests -b android/lineage-24.0
