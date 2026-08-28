@@ -5,13 +5,6 @@
 
 # WARNING: This will remove all local changes!
 rm -rf .repo/local_manifests
-rm -rf kernel/xiaomi
-rm -rf device/xiaomi
-rm -rf device/mediatek/sepolicy_vndr
-rm -rf hardware/dolby
-rm -rf hardware/xiaomi
-rm -rf vendor/xiaomi
-rm -rf vendor/private
 
 # Initialize repo
 repo init --depth=1 -u git@github.com:Shinkaiprjkt/shinkai_manifest.git -b heptakaideka --git-lfs
